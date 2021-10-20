@@ -36,3 +36,9 @@ footer button {
     background-color: #FFF;
     color: #0275B1;
 }
+#language {
+    align-items: center;
+    height: 32px;
+    padding: 5px;
+    width: 270px;
+}
