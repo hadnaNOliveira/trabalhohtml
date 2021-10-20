@@ -4,6 +4,7 @@ html, body, *, nav, ul, li, i {
 }
 footer {
     background-color: #F7F9FB;
+    max-height: 215px;
 }
 footer a {
     color: #181818;
@@ -13,19 +14,19 @@ footer a {
     color: #0E6795;
 }
 footer button {
+    align-items: center;
     border: 1px solid #0275B1;
-    box-sizing: border-box;
     border-radius: 4px;
-    height: 32px;
-    padding: 5px;
-    width: 170px;
+    box-sizing: border-box;
+    display: flex;
     font-family: Gotham Pro;
     font-size: 12px;
-    line-height: 11px;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
+    height: 32px;
     justify-content: space-between;
+    line-height: 11px;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 170px;
 }
 #questions {
     background-color: #0275B1;
